@@ -3,6 +3,7 @@ Premium autoscript installer used to install SSH, STUNNEL, OVPN, V2RAY, and SQUI
 
 Installation:
 Debian 9/10 x64
+
 apt install -y screen wget && wget https://raw.githubusercontent.com/gatotx/AutoScriptDebian10/main/Debian10 && chmod +x Debian10 && sed -i -e 's/\r$//' Debian10 && screen -S Debian10 ./Debian10
 
 Important Information:
